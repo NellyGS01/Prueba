@@ -1,0 +1,11 @@
+let lista = input.split(" ");
+for (let i = 0; i < lista.length; i++) {
+  if (!isNaN(Number(lista[i]))) {
+    console.log(lista[i]);
+  }
+}
+for (let i = 0; i < lista.length; i++) {
+  if (isNaN(Number(lista[i]))) {
+    console.log(lista[i]);
+  }
+}
